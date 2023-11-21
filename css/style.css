@@ -6,12 +6,150 @@
 
 body {
   background-color: lightgray;
+  font-family: "Montserrat";
+}
+
+header {
+  background-color: white;
+}
+header .header-container {
+  width: 100%;
+  padding: 16px;
+}
+header .header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .header-container .header-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.header-left .show {
+  color: #000;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.header-left .select {
+  border-radius: 8px;
+  background: #E0E0E0;
+  padding: 8px 9px;
+}
+.header-left .select span {
+  color: #000;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.header-left .entries {
+  color: #000;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.header-search {
+  margin-left: 12px;
+  border-radius: 8px;
+  border: 1px solid #9E9E9E;
+  display: flex;
+  align-items: center;
+  padding: 8px 9px;
+}
+.header-search a {
+  display: flex;
+  align-items: center;
+}
+.header-search input {
+  padding-left: 8px;
+  border: none;
+  color: #9E9E9E;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.header-search input:focus {
+  outline: none;
+}
+
+.header-right .button {
+  padding: 8px 12px;
+  border-radius: 8px;
+  background: #624DE3;
+  border: none;
+  color: #FFF;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  cursor: pointer;
+  line-height: normal;
+}
+.header-right .button span {
+  padding-right: 8px;
+  font-size: 16px;
+}
+
+.hero {
+  background-color: white;
+}
+.hero .hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+.hero .hero-container span {
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.hero .hero-container .product span, .hero .hero-container .customer span, .hero .hero-container .date span, .hero .hero-container .status span {
+  padding-right: 55px;
+}
+
+.main {
+  background-color: #FFF;
 }
 
 .container {
-  background-color: white;
-  padding: 16px;
-}
-.container .header-left {
+  width: 100%;
+  max-width: 1200px;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+.container .main--container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.block .item1 {
+  width: 100%;
+  padding-left: 25px;
+  padding-right: 25px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  padding-bottom: 47px;
+}
+.block .item1 .product-name {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.block:nth-child(even) {
+  background-color: #F7F6FE;
 }/*# sourceMappingURL=style.css.map */
